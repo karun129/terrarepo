@@ -10,8 +10,8 @@ pipeline {
         TF_HOME = tool('terraform')
         TP_LOG = "WARN"
         PATH = "$TF_HOME:$PATH"
-        ACCESS_KEY = credentials('AKIA6GX5KJDX4UJH7E45')
-        SECRET_KEY = credentials('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')
+        ACCESS_KEY = credentials('')
+        SECRET_KEY = credentials('')
     }
     stages {
             stage('TerraformInit'){
