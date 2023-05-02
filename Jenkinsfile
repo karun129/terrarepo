@@ -10,8 +10,8 @@ pipeline {
         TF_HOME = tool('terraform')
         TP_LOG = "WARN"
         PATH = "$TF_HOME:$PATH"
-        ACCESS_KEY = credentials('AWS_ACCESS_KEY_ID')
-        SECRET_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+        ACCESS_KEY = credentials('AKIA6GX5KJDXTWWEMTW6')
+        SECRET_KEY = credentials('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')
     }
     stages {
             stage('TerraformInit'){
